@@ -1,0 +1,73 @@
+
+.background-container {
+    position: relative;
+    overflow: hidden;
+    background: url('../New_folder/Rectangle\ 19302.png') no-repeat center center;
+    background-size:cover;
+    width: 49vw;
+    height:49vh;
+  
+  
+  }
+  
+  
+  .background-container2 {
+    position: relative;
+    overflow: hidden;
+    background: url('../New_folder/Rectangle\ 19301.png') no-repeat center center;
+    background-size:cover;
+    width: 49vw;
+    height:49vh;
+  
+  }
+  .drop-shadow::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.879);
+    opacity: 0.5; /* Adjust opacity as needed */
+    pointer-events: none;
+    transform: translate(0%, 0%) rotate(-180deg); /* Adjust values as needed */
+    z-index: 1;
+  }
+  @media (max-width:1000px) {
+   
+ 
+    .background-container2{
+        width: 100% !important;
+    }
+    .background-container{
+        width: 100% !important;
+    }
+     
+    .explore1-img{
+        height: 194px !important;
+        font-size: 18px !important;
+
+    }
+    .explore1-text{
+        height: 106px !important;
+        font-size: 37px !important;
+        line-height: 40px !important;
+
+    }
+    .explore2-img{
+        height: 194px !important;
+        font-size: 18px !important;
+
+    }
+    .explore2-text{
+        height: 106px !important;
+        font-size: 37px !important;
+        line-height: 40px !important;
+
+    }
+    .explore-line{
+        margin-top: 0rem !important;
+      }
+}
+
+

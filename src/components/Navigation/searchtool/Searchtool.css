@@ -1,0 +1,35 @@
+.custom-input::placeholder {
+    color: white; 
+    }
+    .input-container {
+    backdrop-filter: blur(17.760618209838867px);
+    background-color:#F3F3F399;
+    padding:0px; 
+    border-radius: 5px; 
+    width:490px;
+    font-family:'Poppins', sans-serif;
+     font-weight:400;
+     font-size:19px;
+     height:auto;
+    
+    
+    }
+    @media (max-width:1000px) {
+   
+        .input-container{
+            width: 310px !important;
+        }
+        .search-tool{
+            margin-top:4rem !important;
+            margin-left: 1rem !important;
+          }
+          .btn1{
+            font-size: 10px !important;
+          }
+          .custom-input{
+            font-size: 10px !important;
+            width: 75px !important;
+          }
+    }
+    
+ 

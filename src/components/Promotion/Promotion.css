@@ -1,0 +1,27 @@
+@media (max-width:1000px) {
+    .eifel-tower{
+      height: 485px !important;
+      top: -205px !important;
+      display: none !important;
+    }
+        .promotion{
+           /* margin-left: 3rem !important;
+            padding-left: 3rem !important;*/
+            margin-left: 0px !important;
+            padding-left: 0px !important;
+        }
+        .labore{
+            font-size: 0px !important;
+        }
+        .promotion-container{
+            padding-left: 0px !important;
+        }
+        .promotion-paragraph{
+            padding-left: 3rem !important;
+            margin-left: 3rem !important;
+        }
+        .promotion-rectangle{
+            width: 100% !important;
+          }
+}
+

@@ -1,0 +1,30 @@
+.background-sepratir {
+    position: relative;
+    overflow: hidden;
+    background: url('../New_folder/Rectangle\ 19294.png') no-repeat center center;
+    background-size:cover;
+    height:50vh;
+  
+  }
+  @media (max-width:1000px) {
+  .sepratir-line{
+    margin-left: -36% !important;
+    top: 14% !important;
+    width: 57% !important;
+  }
+  .sepratir-text{
+    height: 172px !important;
+    font-size: 24px !important;
+    line-height: 37px !important;
+    
+
+}
+.background-sepratir{
+    height: 19vh !important;
+}
+.lg-only{
+    display:none;
+}
+}
+
+

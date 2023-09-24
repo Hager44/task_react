@@ -1,0 +1,106 @@
+
+.row-white-box{
+    z-index: 1;
+  }
+  
+        .row-white-box:hover {
+    padding: 20px!important;
+    border-radius: 15px!important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)!important;
+    align-items:center!important;
+    /*margin-left: 15%!important;*/
+    margin-bottom: 10px !important;
+    background-color: white;
+  
+  }
+  
+  
+
+
+.new:hover .new_rect{
+    visibility: visible !important;
+   /* z-index: -1 !important;*/
+  
+  }
+  
+  
+  
+  
+  
+  .row-white-box:hover .new_rect0{
+    visibility: visible !important;
+    /*z-index: -1 !important;*/
+  
+  }
+  
+  
+  
+  .row-white-box:hover .new_rect1{
+    visibility: visible !important;
+    /*z-index: -1 !important;*/
+  
+  }
+  
+  
+  
+  
+  .row-white-box:hover .new_rect2{
+    visibility: visible !important;
+    /*z-index: -1 !important;*/
+  
+  }
+  
+  
+  .row-white-box:hover .rectangle{
+    left: 35% !important;
+  }
+  .row-white-box:hover .rectangle0{
+    left: 40% !important;
+  }
+  .row-white-box:hover .rectangle1{
+    left: 40% !important;
+  }
+  .row-white-box:hover .rectangle2{
+    left: 40% !important;
+  }
+
+  .new_rect1{
+    top: 10rem;
+     right: 80%;
+     visibility: hidden;
+  }
+  .rectangle0_1{
+     top:auto;
+     transform: translate(-50%, -50%);
+     z-index:-1;
+     left:35%;
+    }
+    .tour_guide{
+        background-image: url('../New_folder/Rectangle157.png') no-repeat center center;
+    }
+    .travelling{
+        background-image: url('../New_folder/Rectangle158.png') no-repeat center center;
+    }
+    .hands{
+        background-image: url('../New_folder/Rectangle157.png') no-repeat center center;
+    }
+    .medicalteam{
+        background-image: url('../New_folder/Rectangle157.png') no-repeat center center;
+    }
+    @media (max-width:1000px) {
+    .tour-guide-rect{
+      left: 50% !important;
+   }
+   .hands-rect{
+      left: 82% !important;
+   }
+   .medical-team-rect{
+      left: 100% !important;
+   }
+   .row-white-box{
+    margin-right: 3rem !important;
+  }
+  }
+  
+ 
+  

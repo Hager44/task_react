@@ -1,0 +1,13 @@
+@media (max-width:1000px) {
+.trips-countries{
+    margin-bottom: 3rem !important;
+}
+.trips-ellipse{
+    top: 228px !important;
+}
+.trending-tour{
+    font-size: 25px !important;
+}
+}
+
+

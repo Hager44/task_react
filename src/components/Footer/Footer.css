@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+    /* Adjust margin-left for smaller screens to prevent horizontal scrolling */
+    img[src*="Rectangle97.png"] {
+      margin-left: 0px !important; /* Adjust this value as needed */
+      max-width: 100% !important;
+    }
+  }
+  
+  

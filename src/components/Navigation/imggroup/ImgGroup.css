@@ -1,0 +1,12 @@
+@media (max-width:1000px) {
+    .image_group {
+      position: relative;
+      top:6%;
+    }
+    .image_group{
+      display: none !important;
+  }
+    
+  }
+  
+ 

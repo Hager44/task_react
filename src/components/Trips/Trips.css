@@ -1,0 +1,11 @@
+@media (max-width:1000px) {
+.trips-container{
+    padding-left: 0px !important;
+}
+.fast-easy{
+    display: flex;
+    justify-content: center;
+}
+}
+
+
